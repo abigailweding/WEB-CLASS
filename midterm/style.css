@@ -1,46 +1,47 @@
+/* =========================
+   Name: Abigail
+   Date: 03/22/2026
+   Subject: Portfolio CSS Styles
+   ========================= */
+
+/* ----- Page Setup ----- */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f4f4;
-  font-size: 1em;
-  margin: 0;
 }
 
-/* Wrapper (centered, not full width) */
+/* ----- Wrapper Layout ----- */
 #wrapper {
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
-/* Navigation */
+/* ----- Navigation Bar ----- */
 nav {
   background-color: #2c3e50;
   padding: 0.5em;
   text-align: center;
 }
 
+/* ----- Navigation Links ----- */
 nav a {
-  color: #ffffff;
-  text-decoration: none;
+  color: white;
   margin: 0 2%;
-  font-size: 1.1em;
+  text-decoration: none;
 }
 
-/* Main content */
+/* ----- Main Content ----- */
 main {
-  background-color: #ffffff;
+  background-color: white;
   padding: 1em;
-  margin-top: 1%;
 }
 
-/* Headings */
+/* ----- Headings ----- */
 h1 {
-  font-size: 2em;
   color: #2c3e50;
 }
 
-/* Paragraphs */
+/* ----- Paragraph Text ----- */
 p {
   font-size: 1em;
-  line-height: 1.5em;
 }
