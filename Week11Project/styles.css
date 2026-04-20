@@ -1,4 +1,5 @@
-h3, p {
+h3,
+p {
   text-align: center;
 }
 
@@ -10,11 +11,13 @@ form {
   padding: 1em;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   margin-bottom: 0.5em;
 }
 
-/* Media Query */
+/* Media query */
 @media (min-width: 768px) {
   form {
     display: grid;
@@ -29,4 +32,3 @@ input, select, textarea {
     grid-column: 2;
     width: 10em;
   }
-}
