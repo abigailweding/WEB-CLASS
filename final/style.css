@@ -6,14 +6,13 @@ body {
   font-size: 1em;
 }
 
-/* WRAPPER (CENTERED + NOT FULL WIDTH) */
+/* CENTERED PAGE BOX */
 #wrapper {
   width: 80%;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: white;
   min-height: 100vh;
   text-align: center;
-  padding-bottom: 2em;
 }
 
 /* NAV BAR */
@@ -26,11 +25,11 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 1em;
   padding: 0.8em 1.2em;
+  font-size: 1em;
 }
 
-/* SEPARATION LINES */
+/* LINES BETWEEN LINKS */
 nav a:not(:last-child) {
   border-right: 2px solid rgba(255,255,255,0.5);
 }
