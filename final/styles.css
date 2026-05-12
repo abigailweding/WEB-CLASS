@@ -1,1 +1,89 @@
+/* General Page Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Page Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* Top 10 List Cards */
+.card {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Images */
+.card img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Text */
+.card h2 {
+    margin: 0 0 10px;
+    color: #4a90e2;
+}
+
+.card p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.nav-buttons a:hover {
+    background-color: #357abd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
 
